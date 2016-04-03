@@ -1,24 +1,27 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnStartAty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:text="START" />
+	<Button
+		android:id="@+id/btnStartAty"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/textView1"
+		android:text="START"/>
 
-    <TextView
-        android:id="@+id/textView1"
-        android:textSize="55sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnStartAty"
-        android:layout_alignParentTop="true"
-        android:text="请按button" />
+	<TextView
+		android:id="@+id/textView1"
+		android:textSize="54sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/btnStartAty"
+		android:layout_alignParentTop="true"
+		android:text="请按button"/>
 
 </RelativeLayout>
+
