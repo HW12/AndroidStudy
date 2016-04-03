@@ -11,19 +11,19 @@ public class test2 {
 	static String type;
 	public static void main(String[] args) {
 		input();
-		//System.out.println("ĞÕÃû£º" + name);
-		//System.out.println("ÄêÁä£º"+ age);
-		//System.out.println("ĞÔ¸ñ£º"+type);
-		//System.out.println("ĞÔ±ğ£º"+sex);
-		System.out.println("ÎÒ½Ğ" + name + "ÊÇÒ»¸ö" + age + type + "µÄ" + sex + "ÈË");
+		//System.out.println("å§“åï¼š" + name);
+		//System.out.println("å¹´é¾„ï¼š"+ age);
+		//System.out.println("æ€§æ ¼ï¼š"+type);
+		//System.out.println("æ€§åˆ«ï¼š"+sex);
+		System.out.println("æˆ‘å«" + name + "æ˜¯ä¸€ä¸ª" + age + type + "çš„" + sex + "äºº");
 		// feeling1();
-		feeling("ÎÒ¼ñÁËÎå°ÙÍòÁË", "¹ş¹ş¹ş¹ş¹ş¹ş¡£¡£¡£");
+		feeling("æˆ‘æ¡äº†äº”ç™¾ä¸‡äº†", "å“ˆå“ˆå“ˆå“ˆå“ˆå“ˆã€‚ã€‚ã€‚");
 		input();
-		//System.out.println("ĞÕÃû£º" + name);
-		//System.out.println("ÄêÁä£º"+ age);
-		//System.out.println("ĞÔ¸ñ£º"+type);
-		System.out.println("ÎÒ½Ğ" + name + "ÊÇÒ»¸ö"+ age +type+"µÄ" + sex + "ÈË");
-		feeling("ÎÒÊ§ÁµÁË°¡", "ÎØÎØÎØÎØÎŞ¡£¡£¡£");
+		//System.out.println("å§“åï¼š" + name);
+		//System.out.println("å¹´é¾„ï¼š"+ age);
+		//System.out.println("æ€§æ ¼ï¼š"+type);
+		System.out.println("æˆ‘å«" + name + "æ˜¯ä¸€ä¸ª"+ age +type+"çš„" + sex + "äºº");
+		feeling("æˆ‘å¤±æ‹äº†å•Š", "å‘œå‘œå‘œå‘œæ— ã€‚ã€‚ã€‚");
 	}
 
 	private static void feeling(String cause, String content) {
@@ -32,8 +32,8 @@ public class test2 {
 	}
 
 	// private static void feeling2() {
-	// System.out.println("ÎÒÊ§ÁµÁË°¡");
-	// System.out.println("ÎØÎØÎØÎØÎŞ¡£¡£¡£");
+	// System.out.println("æˆ‘å¤±æ‹äº†å•Š");
+	// System.out.println("å‘œå‘œå‘œå‘œæ— ã€‚ã€‚ã€‚");
 	// }
 
 	static void input() {
@@ -41,13 +41,13 @@ public class test2 {
 		//InputStreamReader iReader=new InputStreamReader(System.in);
 		//BufferedReader bReader=new BufferedReader(iReader);
 		//bReader.readLine()
-		System.out.print("ĞÕÃû£º" );
+		System.out.print("å§“åï¼š" );
 		name = scanner.next();
-		System.out.print("ĞÔ¸ñ£º");
+		System.out.print("æ€§æ ¼ï¼š");
 		type = scanner.next();
-		System.out.print("ÄêÁä£º");
+		System.out.print("å¹´é¾„ï¼š");
 		age = scanner.nextInt();
-		System.out.print("ĞÔ±ğ£º");
+		System.out.print("æ€§åˆ«ï¼š");
 		sex = scanner.next().charAt(0);
 		//scanner.close();
 		

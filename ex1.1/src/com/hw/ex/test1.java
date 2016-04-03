@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class test1 {
 
-	/**ÕÅ·É
+	/**å¼ é£
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//char sex="ÄĞ";
-		//String name="ÕÅ·É";
-		//int age;¶ÔµÄ
+		//char sex="ç”·";
+		//String name="å¼ é£";
+		//int age;å¯¹çš„
 		int age=12;
 		Scanner scanner=new Scanner(System.in);
 		String name=scanner.next(); 
-		/*£¨int£©*/ age = scanner.nextInt();
+		/*ï¼ˆintï¼‰*/ age = scanner.nextInt();
 		char sex=scanner.next().charAt(0);
 	    scanner.close();
-	   	System.out.println("ÎÒ½Ğ"+name+"ÊÇÒ»¸ö"+age+"µÄ"+sex+"ÈË");
+	   	System.out.println("æˆ‘å«"+name+"æ˜¯ä¸€ä¸ª"+age+"çš„"+sex+"äºº");
 	} 
 }

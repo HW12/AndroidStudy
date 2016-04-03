@@ -11,12 +11,12 @@ public class test0 {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈë·ÖÊý£º");
+		System.out.println("è¯·è¾“å…¥åˆ†æ•°ï¼š");
 		int score = scanner.nextInt();
 		boolean ispass = (score >= 60 && score <= 80);
-		System.out.println(ispass ? "¼°¸ñ" : "²»¼°¸ñ");
+		System.out.println(ispass ? "åŠæ ¼" : "ä¸åŠæ ¼");
 		ispass = (score > 80 && score <= 100);
-		System.out.println(ispass ? "ÓÅÐã" : "²»¼°¸ñ");
+		System.out.println(ispass ? "ä¼˜ç§€" : "ä¸åŠæ ¼");
 
 	}
 
